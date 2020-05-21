@@ -9,9 +9,13 @@ A* algorithm referenced Patrick Lester’s article:
 
 2. Repeat the following:
 A) Look for the lowest F cost square on the open list. We refer to this as the current square.
+<<<<<<< HEAD
 
 B). Switch it to the closed list.
 
+=======
+B). Switch it to the closed list.
+>>>>>>> 405e4cb2ed874655f42199adceba2b0af06c90f7
 C) For each of the 8 squares adjacent to this current square:
 If it is not walkable or if it is on the closed list, ignore it. Otherwise do the following.
 If it isn’t on the open list, add it to the open list. Make the current square the parent of this square. Record the F, G, and H costs of the square.
@@ -20,7 +24,10 @@ If it is on the open list already, check to see if this path to that square is b
 D) Stop when you:
 Add the target square to the closed list, in which case the path has been found, or
 Fail to find the target square, and the open list is empty. In this case, there is no path.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 405e4cb2ed874655f42199adceba2b0af06c90f7
 3. Save the path. Working backwards from the target square, go from each square to its parent square until you reach the starting square. That is your path.
 
 ## References
