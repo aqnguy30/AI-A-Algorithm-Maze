@@ -3,7 +3,7 @@
 ## Project Description
 Solve a maze problem which will find the shortest path in the maze from a start node to the end node using A* algorithm.
 
-## Rules
+## Details
 A* algorithm referenced Patrick Lester’s article:
 1. Add the starting square (or node) to the open list.
 
