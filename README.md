@@ -29,4 +29,4 @@ https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb
 https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2
 
 ## Author
-Tony Nguyen - aqnguy30 - quocanh191997@gmail.com
+Tony Nguyen - Github: aqnguy30 - Email: quocanh191997@gmail.com
